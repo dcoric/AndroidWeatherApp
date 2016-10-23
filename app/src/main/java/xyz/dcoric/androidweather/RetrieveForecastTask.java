@@ -47,7 +47,9 @@ public class RetrieveForecastTask extends AsyncTask<Double, Void, ArrayList<Weat
         ArrayList<Weather> resultList = new ArrayList<Weather>();
 
         try {
-            URL url = new URL("http://api.openweathermap.org/data/2.5/forecast/daily?appid=1fe3fc497c1f8a1c53d67e08754c4e28&lat=" +
+            URL url = new URL("http://api.openweathermap.org/data/2.5/forecast/daily?appid=" +
+                    Constants.API_KEY +
+                    "&lat=" +
                     params[0] +
                     "&lon=" +
                     params[1] +
