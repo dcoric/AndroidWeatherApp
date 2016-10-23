@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     private GoogleApiClient googleApiClient;
     private ForecastAdapter adapter;
     Toolbar toolbar;
-    //1fe3fc497c1f8a1c53d67e08754c4e28
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
